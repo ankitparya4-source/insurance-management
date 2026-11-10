@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+server/node_modules/
+client/node_modules/
+
+# Environment variables & Sensitive credentials
+.env
+.env.local
+.env.*.local
+server/.env
+*.env
+
+# Academic report, spec & local prompt documents
+FOUNDATION.md
+*.docx
+build_report.py
+
+# Production build artifacts
+dist/
+dist-ssr/
+client/dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

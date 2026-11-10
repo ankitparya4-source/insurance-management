@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Manrope', sans-serif;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #faf6ee;
+    color: #09112a;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'League Spartan', sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
